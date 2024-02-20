@@ -1,0 +1,12 @@
+ch = input("Enter the current hour: ");
+if (ch > 8) & (ch < 10) then
+    disp("IT Workshop class")
+elseif ( h < 12) then
+    disp("DBMS class")
+elseif (ch >= 12) & (ch < 12.30) then
+    disp("Lunch break")
+elseif (ch > 12.30) & (ch <= 16) then
+    disp("Software Engineering class")
+else
+    disp("Free time")
+end
